@@ -9,8 +9,8 @@ def  welcome(request):
     return render(request, 'index.html')
 
 #  python3 -m pip install africastalking
-AfricasUsername='nadineuwimana72@gmail.com'
-api_key ='b3d0f29af6dc51c715e0329d46fc58cf2eb1fe583aa1b1da7bc117c2b428212a'
+AfricasUsername='bukusenge@gmail.com'
+api_key ='673524a8196c675fc322308124f25d1daf370b6faa5bb923b556ff1898939637'
 africastalking.initialize(AfricasUsername,api_key)
 
 @csrf_exempt
