@@ -28,9 +28,9 @@ def ussdApp(request):
         response =""
         #  main menu for our application
         if text == '':
-            response =  "CON Murakaza neza kuri Idafarm \n"
-            response += "1. Kwandikisha igihingwa \n"
-            response += "2. Kumenya ingengabihe \n"
+            response =  "CON Murakaza neza kuri Home Needs USSD app \n"
+            response += "1. GUSABA DELIVERY \n"
+            response += "2. HITAMO ISOKO \n"
         elif text == '1':
             # SELECT * FROM PRODUCTMODEL where title="" ORDER BY ID DESC LIMIT 5
             fetchProducts = ProductsModel.objects.all()
