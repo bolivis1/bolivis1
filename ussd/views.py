@@ -35,6 +35,14 @@ def ussdApp(request):
             response= "CON HITAMO ISOKO  :\n"
             response += "1. NYARUGENGE \n"
             response += " 2. NYAMIRAMBO\n"
+        elif text =='1*1':
+            response="CON HITAMO IBYO UKENEYE\n"
+            response +="1. IBIKORESHO BY'ISUKU\n"
+            response +="2. IBYOKURYA\n"
+            response +="3. IBYOKUNYWA\n"
+
+
+
 
         # SELECT * FROM PRODUCTMODEL where title="" ORDER BY ID DESC LIMIT 5
         #     fetchProducts = ProductsModel.objects.all()
