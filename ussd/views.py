@@ -40,6 +40,11 @@ def ussdApp(request):
             response +="1. IBIKORESHO BY'ISUKU\n"
             response +="2. IBYOKURYA\n"
             response +="3. IBYOKUNYWA\n"
+        elif text == '1*2':
+            response = "CON HITAMO IBYO UKENEYE\n"
+            response += "1. IBIKORESHO BY'ISUKU\n"
+            response += "2. IBYOKURYA\n"
+            response += "3. IBYOKUNYWA\n"
 
 
 
