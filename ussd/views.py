@@ -51,7 +51,7 @@ def ussdApp(request):
             response += "1. AMAZI YOKUNYWA\n"
             response += "2. UMUTOBE\n"
         elif text =='1*1*4':
-            response="END MURAKOZE GUKORANA NATWE MURABONA UBUTUMWA BUGUFI"
+            response="END MURAKOZE GUKORANA NATWE MURABONA UBUTUMWA BUGUFI\n"
 
         else:
             response = "END Ukanze ibitaribyo, ongera mukanya"
