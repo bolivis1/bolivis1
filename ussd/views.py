@@ -42,6 +42,14 @@ def ussdApp(request):
             response = "CON HITAMO IBIKORESHO BY'ISUKU\n"
             response += "1. ISABUNE\n"
             response += "2. UMUTI WOKOZA UBWIHERERO\n"
+        elif text == '1*1*2':
+            response ="CON HITAMO IBYOKURYA\n"
+            response += "1. IMBOGA\n"
+            response += "2. IMBUTO\n"
+        elif text == '1*1*3':
+            response =  " 1.CON HITAMO IBYOKUNYWA\n"
+            response +="1. AMAZI YOKUNYWA\n"
+            response +="2. UMUTOBE\n"
 
         else:
             response = "END Ukanze ibitaribyo, ongera mukanya"
