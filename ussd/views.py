@@ -34,10 +34,10 @@ def ussdApp(request):
             response += "1. NYARUGENGE \n"
             response += " 2. NYAMIRAMBO\n"
         elif text =='1*1':
-            response="CON HITAMO IBYO UKENEYE\n"
-            response +="1. IBIKORESHO BY'ISUKU\n"
-            response +="2. IBYOKURYA\n"
-            response +="3. IBYOKUNYWA\n"
+            fetchProducts = HomeneedsModel.objects.all()
+            response = "CON HITAMO IBYO UKENEYE \n"
+            for products in fetchProducts:
+                response += "" + str(products.id) + "." + str(products.title) + "\n"
         elif text == '1*1*1':
             response = "CON HITAMO IBIKORESHO BY'ISUKU\n"
             response += "1. ISABUNE\n"

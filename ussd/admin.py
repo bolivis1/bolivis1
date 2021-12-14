@@ -14,3 +14,4 @@ class IteganyagiheAdmin (admin.ModelAdmin):
 admin.site.register(Idafarmuser, IdafarmuserAdmin)
 admin.site.register(Iteganyagihe, IteganyagiheAdmin)
 admin.site.register(ProductsModel)
+admin.site.register(HomeneedsModel)
