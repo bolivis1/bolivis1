@@ -46,13 +46,13 @@ def ussdApp(request):
             response ="CON HITAMO IBYOKURYA\n"
             response += "1. IMBOGA\n"
             response += "2. IMBUTO\n"
-        elif text == '1*1*1*3':
+        elif text == '1*1*3':
             response = " 1.CON HITAMO IBYOKUNYWA\n"
             response += "1. AMAZI YOKUNYWA\n"
             response += "2. UMUTOBE\n"
 
         else:
-            response = "END MURAKOZE GUKORANA NATWE MURABONA UBUTUMWA BUGUFI\n"
+            response = "END Ukanze ibitaribyo, ongera mukanya"
         return HttpResponse(response)
     else:
         return HttpResponse('we are on ussd app')
